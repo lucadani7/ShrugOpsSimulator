@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ShrugOps: The Ultimate Deployment Simulator
 
-## Getting Started
+**ShrugOps** is a retro-styled, high-stakes deployment simulator built with Next.js. It captures the chaotic essence of "pushing to production" where the odds are 50/50 and the excuses are 100% relatable. It is a satirical play on the popular **DevOps** culture. The name is a fusion of the "Shrug" emoticon and "Operations."
 
-First, run the development server:
+It is directly inspired by the legendary **"It works on my machine"** meme. In the world of software development, this phrase is the ultimate "get out of jail free" card used by developers when their code works locally but causes a total meltdown in the production environment. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The core philosophy of ShrugOps is simple: 
+> *If the deployment fails, just shrug, blame the environment, and move on.* ¯\_(ツ)_/¯
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
+## ⚠ Disclaimer
+This simulator is for entertainment purposes only. ShrugOps is not responsible for any actual production outages caused by excessive shrugging.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Retro Terminal Aesthetics:** Custom CRT monitor effects including scanlines, flicker, and a green monochrome glow.
+- **Interactive Coding Loop:** Type random keys to "generate" source code and build system stability.
+- **Audio Feedback:** Synthesized mechanical keyboard "clicks" using the Web Audio API.
+- **The 50/50 Gamble:** A realistic (at least for Friday afternoons) deployment logic.
+- **Fail with Style:** Includes the iconic "It works on my machine" badge and a collection of world-class developer excuses.
+- **Haptic Visuals:** Screen-shake effects upon deployment failure for maximum emotional impact.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Audio:** Web Audio API (OscillatorNode)
+- **Deployment:** Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏁 Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/lucadani7/ShrugOpsSimulator
+   cd ShrugOpsSimulator
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your favorite browser at `http://localhost:3000` to start your first (unstable) deployment.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📖 How to Play
+1. Type like a pro: Smash your keyboard to write code.
+2. Watch the stability: Your "Stability Score" increases as you type.
+3. Deploy: Hit the "Deploy to Production" button when you feel lucky.
+4. Accept the outcome: Either enjoy a suspicious success or embrace the Shrug.
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the Apache-2.0 License.
