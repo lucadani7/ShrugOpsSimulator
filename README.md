@@ -9,7 +9,7 @@ The core philosophy of ShrugOps is simple:
 
 ---
 ## ⚠ Disclaimer
-This simulator is for entertainment purposes only. ShrugOps is not responsible for any actual production outages caused by excessive shrugging.
+> This simulator is for entertainment purposes only. ShrugOps is not responsible for any actual production outages caused by excessive shrugging.
 ---
 
 ## 🚀 Features
